@@ -1,0 +1,14 @@
+config/service-account.json
+node_modules/
+utils/secrets.js
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+
+# Ignore compiled code
+*.class
+*.jar
+

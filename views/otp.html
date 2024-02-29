@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faszen Email</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+
+.container {
+    margin: auto;
+    width: 100%;
+    max-width: 600px; /* Set maximum width for better readability */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Heavy drop shadow */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+      
+        .header {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #000;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .brand-link {
+            font-size: 1.8em;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .content {
+            padding: 20px 0;
+        }
+
+        h2 {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 4px;
+            width: max-content;
+            margin: 0 auto;
+            font-weight: bold;
+        }
+
+        .footer {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            padding: 8px 0;
+            color: #fff;
+            font-size: 0.8em;
+            font-weight: 300;
+            text-align: center;
+            background-color: #000;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+        }
+
+        p {
+            font-size: 1.1em;
+            text-align: center;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .regards {
+            font-size: 0.9em;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .inquiries {
+            font-size: 0.9em;
+            text-align: center;
+            margin-top: 10px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="brand-link">Faszen</a>
+        </header>
+        <div class="content">
+            <p>Hi,</p>
+            <p>Thank you for choosing Your Faszen. Use the following OTP to complete your Sign Up procedures. OTP is valid for 5 minutes</p>
+            <h2>{{OTP}}</h2>
+            <p class="regards">Regards,<br />Faszen</p>
+            <p class="inquiries">For any inquiries, please contact <a href="mailto:support@faszen.com">support@faszen.com</a></p>
+        </div>
+        <hr>
+        <footer class="footer">
+            Faszen Technologies Inc<br>
+            SSNCE<br>
+            Chennai
+        </footer>
+    </div>
+</body>
+
+</html>
