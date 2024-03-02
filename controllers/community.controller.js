@@ -208,9 +208,97 @@ exports.getPostsInit = (req, res) => {
     }
   ];
 
+  budgetBuys = [
+    {
+      "id": 1,
+      "item": "07E3V7WYtpo",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/07E3V7WYtpo.jpg"
+    },
+    {
+      "id": 2,
+      "item": "8lrBRvGiypg",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/8lrBRvGiypg.jpg"
+    },
+    {
+      "id": 3,
+      "item": "P8H1wMsi7z8",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/P8H1wMsi7z8.jpg"
+    },
+    {
+      "id": 4,
+      "item": "swiEvRplNyo",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/swiEvRplNyo.jpg"
+    },
+    {
+      "id": 5,
+      "item": "r5fgEG_n8gY",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/r5fgEG_n8gY.jpg"
+    },
+    {
+      "id": 6,
+      "item": "jhjrDYwtY8E",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/jhjrDYwtY8E.jpg"
+    },
+    {
+      "id": 7,
+      "item": "sx-4IJT0ano",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/sx-4IJT0ano.jpg"
+    },
+    {
+      "id": 8,
+      "item": "22w2FNRS3sE",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/22w2FNRS3sE.jpg"
+    }
+  ];
+
+  ethnicLooks = [
+    {
+      "id": 1,
+      "item": "08mFJcOt4lw",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/08mFJcOt4lw.jpg"
+    },
+    {
+      "id": 2,
+      "item": "tySI2RBvDkM",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/tySI2RBvDkM.jpg"
+    },
+    {
+      "id": 3,
+      "item": "l1TwkgCI5-I",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/l1TwkgCI5-I.jpg"
+    },
+    {
+      "id": 4,
+      "item": "5BXFht-7llk",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/5BXFht-7llk.jpg"
+    },
+    {
+      "id": 5,
+      "item": "b7_boWkL0k0",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/b7_boWkL0k0.jpg"
+    },
+    {
+      "id": 6,
+      "item": "G_zq69tXL-I",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/G_zq69tXL-I.jpg"
+    },
+    {
+      "id": 7,
+      "item": "6qVrMlt18hw",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/6qVrMlt18hw.jpg"
+    },
+    {
+      "id": 8,
+      "item": "-luHxX7LdcI",
+      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/-luHxX7LdcI.jpg"
+    }
+  ];
+
   let response = {
     "the dress shop": dressShop,
-    "style hacks": styleHacks
+    "style hacks": styleHacks,
+    "budget buys": budgetBuys,
+    "ethnic looks": ethnicLooks
   }
   
 
