@@ -126,42 +126,42 @@ exports.getPostsInit = (req, res) => {
     {
       "id": 1,
       "item": "Qsju-Oi1w3Y",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/Qsju-Oi1w3Y.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/Qsju-Oi1w3Y.jpg"
     },
     {
       "id": 2,
       "item": "eolq9FYYR0M",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/eolq9FYYR0M.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/eolq9FYYR0M.jpg"
     },
     {
       "id": 3,
       "item": "WM7OXpKM-T8",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/WM7OXpKM-T8.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/WM7OXpKM-T8.jpg"
     },
     {
       "id": 4,
       "item": "hqjYiCThabQ",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/hqjYiCThabQ.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/hqjYiCThabQ.jpg"
     },
     {
       "id": 5,
       "item": "OyImE_PtBsQ",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/OyImE_PtBsQ.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/OyImE_PtBsQ.jpg"
     },
     {
       "id": 6,
       "item": "5fTaIFOEqAE",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/5fTaIFOEqAE.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/5fTaIFOEqAE.jpg"
     },
     {
       "id": 7,
       "item": "tZWU_-pZkSA",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/tZWU_-pZkSA.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/tZWU_-pZkSA.jpg"
     },
     {
       "id": 8,
       "item": "gAhe1rdfhYQ",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/gAhe1rdfhYQ.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/gAhe1rdfhYQ.jpg"
     }
   ];
   
@@ -169,42 +169,42 @@ exports.getPostsInit = (req, res) => {
     {
       "id": 1,
       "item": "LLny24RmA2s",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/LLny24RmA2s.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/LLny24RmA2s.jpg"
     },
     {
       "id": 2,
       "item": "SVNledEfJts",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/SVNledEfJts.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/SVNledEfJts.jpg"
     },
     {
       "id": 3,
       "item": "hgPrNP44Y2g",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/hgPrNP44Y2g.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/hgPrNP44Y2g.jpg"
     },
     {
       "id": 4,
       "item": "0mdNrdZULsE",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/0mdNrdZULsE.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/0mdNrdZULsE.jpg"
     },
     {
       "id": 5,
       "item": "dIeAZRv1riw",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/dIeAZRv1riw.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/dIeAZRv1riw.jpg"
     },
     {
       "id": 6,
       "item": "HHweV98_5bU",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/HHweV98_5bU.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/HHweV98_5bU.jpg"
     },
     {
       "id": 7,
       "item": "XPsT0tmXm3M",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/XPsT0tmXm3M.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/XPsT0tmXm3M.jpg"
     },
     {
       "id": 8,
       "item": "d-HsSqgveCk",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/d-HsSqgveCk.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/d-HsSqgveCk.jpg"
     }
   ];
 
@@ -212,42 +212,42 @@ exports.getPostsInit = (req, res) => {
     {
       "id": 1,
       "item": "07E3V7WYtpo",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/07E3V7WYtpo.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/07E3V7WYtpo.jpg"
     },
     {
       "id": 2,
       "item": "8lrBRvGiypg",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/8lrBRvGiypg.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/8lrBRvGiypg.jpg"
     },
     {
       "id": 3,
       "item": "P8H1wMsi7z8",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/P8H1wMsi7z8.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/P8H1wMsi7z8.jpg"
     },
     {
       "id": 4,
       "item": "swiEvRplNyo",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/swiEvRplNyo.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/swiEvRplNyo.jpg"
     },
     {
       "id": 5,
       "item": "r5fgEG_n8gY",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/r5fgEG_n8gY.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/r5fgEG_n8gY.jpg"
     },
     {
       "id": 6,
       "item": "jhjrDYwtY8E",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/jhjrDYwtY8E.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/jhjrDYwtY8E.jpg"
     },
     {
       "id": 7,
       "item": "sx-4IJT0ano",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/sx-4IJT0ano.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/sx-4IJT0ano.jpg"
     },
     {
       "id": 8,
       "item": "22w2FNRS3sE",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/22w2FNRS3sE.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/22w2FNRS3sE.jpg"
     }
   ];
 
@@ -255,42 +255,42 @@ exports.getPostsInit = (req, res) => {
     {
       "id": 1,
       "item": "08mFJcOt4lw",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/08mFJcOt4lw.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/08mFJcOt4lw.jpg"
     },
     {
       "id": 2,
       "item": "tySI2RBvDkM",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/tySI2RBvDkM.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/tySI2RBvDkM.jpg"
     },
     {
       "id": 3,
       "item": "l1TwkgCI5-I",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/l1TwkgCI5-I.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/l1TwkgCI5-I.jpg"
     },
     {
       "id": 4,
       "item": "5BXFht-7llk",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/5BXFht-7llk.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/5BXFht-7llk.jpg"
     },
     {
       "id": 5,
       "item": "b7_boWkL0k0",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/b7_boWkL0k0.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/b7_boWkL0k0.jpg"
     },
     {
       "id": 6,
       "item": "G_zq69tXL-I",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/G_zq69tXL-I.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/G_zq69tXL-I.jpg"
     },
     {
       "id": 7,
       "item": "6qVrMlt18hw",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/6qVrMlt18hw.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/6qVrMlt18hw.jpg"
     },
     {
       "id": 8,
       "item": "-luHxX7LdcI",
-      "image": "https://storage.googleapis.com/fiz-storage/youtube-thumbnails/-luHxX7LdcI.jpg"
+      "image": "https://storage.googleapis.com/faszen-storage/youtube-thumbnails/-luHxX7LdcI.jpg"
     }
   ];
 
