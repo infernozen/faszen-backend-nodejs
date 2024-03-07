@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
 
-const otpfilePath = path.join(__dirname, 'views', 'otp.html');
+const otpfilePath = path.resolve(__dirname, '..', 'views', 'otp.html');
 
 exports.generateOTP = (req, res, next) => {
     const { email } = req.body;
