@@ -3,11 +3,8 @@ const bodyParser = require('body-parser');
 const authRoute = require('./routes/auth.route');
 const otpRoute = require('./routes/otp.route');
 const communityRoute = require('./routes/community.route');
-const path = require('path');
 
 const app = express();
-
-exports.appDir = path.resolve(__dirname);
 
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));

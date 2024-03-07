@@ -4,9 +4,8 @@ const { OTP_EMAIL_ADDRESS, OTP_EMAIL_PASSWORD} = require("../utils/secrets");
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
-const { appDir } = require("../app");
 
-const otpfilePath = path.resolve(appDir, 'views', 'otp.html');
+const otpfilePath = path.resolve(__dirname, '..', 'views', 'otp.html');
 
 exports.generateOTP = (req, res, next) => {
     const { email } = req.body;
