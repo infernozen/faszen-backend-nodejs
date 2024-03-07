@@ -3,7 +3,9 @@ const { generateOTP: generate } = require("../utils/hash");
 const { OTP_EMAIL_ADDRESS, OTP_EMAIL_PASSWORD} = require("../utils/secrets");
 const nodemailer = require('nodemailer');
 const fs = require('fs');
+const path = require('path');
 
+const otpfilePath = path.join(__dirname, 'views', 'otp.html');
 
 exports.generateOTP = (req, res, next) => {
     const { email } = req.body;
@@ -82,7 +84,7 @@ exports.deleteExpiredOTPs = (req, res, next) => {
 exports.sendEmail = async (req,res) => {
     const { email } = req.body;
     const {otp , expiryTime} = req.OTP;
-    const htmlContent = fs.readFileSync('C:\\Users\\rosan\\OneDrive\\Desktop\\fasmob\\views\\otp.html', 'utf8');
+    const htmlContent = fs.readFileSync(otpfilePath , 'utf8');
 
     const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
