@@ -6,7 +6,6 @@ const fs = require('fs');
 const path = require('path');
 
 const otpfilePath = path.join(__dirname, '..', 'views', 'otp.html');
-console.log(otpfilePath);
 
 exports.generateOTP = (req, res, next) => {
     const { email } = req.body;

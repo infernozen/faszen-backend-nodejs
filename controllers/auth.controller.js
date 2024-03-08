@@ -1,6 +1,7 @@
 const User = require('../models/user.model');
 const { hash: hashPassword, compare: comparePassword } = require('../utils/hash');
 const { JWT_SECRET_KEY } = require('../utils/secrets');
+const { toDate } = require('../utils/toDate');
 const { generate: generateToken, decode: decodeToken } = require('../utils/tokenizer');
 const { JWT } = require('google-auth-library');
 
@@ -24,7 +25,8 @@ exports.signup = (req, res) => {
                     token: token,
                     firstname: data.firstname,
                     lastname: data.lastname,
-                    email: data.email
+                    email: data.email,
+                    creationTime: toDate(data.create_time)
                 }
             });
         }
@@ -57,7 +59,8 @@ exports.signin = (req, res) => {
                         token: token,
                         firstname: data.firstname,
                         lastname: data.lastname,
-                        email: data.email
+                        email: data.email,
+                        creationTime: toDate(data.create_time)
                     }
                 });
                 return;
