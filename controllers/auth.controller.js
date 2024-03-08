@@ -60,7 +60,7 @@ exports.signin = (req, res) => {
                         firstname: data.firstname,
                         lastname: data.lastname,
                         email: data.email,
-                        creationTime: toDate(data.create_time)
+                        // creationTime: toDate(data.create_time)
                     }
                 });
                 return;
