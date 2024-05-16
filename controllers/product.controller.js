@@ -18,3 +18,20 @@ exports.getProductbyCategory = (req,res) => {
         }
     });
 };
+
+exports.getAllProducts = (req,res) => {
+    Product.getAll((error, products) => {
+        if (products) {
+            res.status(200).send({
+                status: "success",
+                products : products
+            });
+        }
+        else{
+            res.status(404).send({
+                status: "failure",
+                message: `Error occured: ${error}`
+            });
+        }
+    });
+};
