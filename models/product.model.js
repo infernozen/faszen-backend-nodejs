@@ -84,6 +84,49 @@ class Product {
       });
   }
 
+  static getByTag(tags, cb) {
+    const collectionPath = 'Products';
+    const collectionRef = db.collection(collectionPath);
+
+    const tagArray = tags.split(',');
+
+    collectionRef.where('tags', 'array-contains-any', tagArray)
+      .get()
+      .then((querySnapshot) => {
+        const products = [];
+        querySnapshot.forEach((doc) => {
+          const data = doc.data();
+          const product = new Product(
+            data.id,
+            data.name,
+            data.price,
+            data.sizes,
+            data.images,
+            data.description,
+            data.similarproducts,
+            data.variants,
+            data.rating,
+            data.tags,
+            data.isAvailable,
+            data.category,
+            data.isActive,
+            data.model3D,
+            data.isARTryOnAvailable,
+            data.is3Davailable,
+            data.arLensID,
+            data.organisationImageUrl,
+            data.redirectlinks
+          );
+          products.push(product);
+        });
+        cb(null, products);
+      })
+      .catch((error) => {
+        console.error(`Error fetching products by tag(s) '${tags}':`, error);
+        cb(error);
+      });
+  }
+
   static getAll(cb) {
     const collectionPath = 'Products';
     const collectionRef = db.collection(collectionPath);

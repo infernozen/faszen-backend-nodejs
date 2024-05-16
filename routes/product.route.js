@@ -8,4 +8,7 @@ router.route('/category/:category')
 router.route('/getAll')
       .get(asyncHandler(ProductController.getAllProducts));
 
+router.route('/bytags')
+      .post(asyncHandler(ProductController.getProductsByTags));
+
 module.exports = router;
