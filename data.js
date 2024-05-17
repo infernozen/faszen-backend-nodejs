@@ -82,9 +82,9 @@ async function importProductsData() {
   try {
     
     for (const product of products) {
-      const { id, name, price, sizes, images, description, similarproducts, variants, rating, tags
+      const { id, name, title,price, sizes, images, description, similarproducts, variants, rating, tags
         , isAvailable, category, isActive, model3D, isARTryOnAvailable, is3Davailable, arLensID, organisationImageUrl
-        , redirectlinks
+        , redirectlinks, imageurl
        } = product;
 
       const collectionPath = 'Products'; 
@@ -93,6 +93,7 @@ async function importProductsData() {
       const data = {
         id,
         name,
+        title,
         price,
         sizes,
         images,
@@ -109,7 +110,8 @@ async function importProductsData() {
         is3Davailable, 
         arLensID,
         organisationImageUrl,
-        redirectlinks
+        redirectlinks,
+        imageurl
       };
 
       await firestore.collection(collectionPath).doc(documentPath).set(data);

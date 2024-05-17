@@ -21,7 +21,8 @@ class Product {
     is3Davailable,
     arLensID,
     organisationImageUrl,
-    redirectLinks
+    redirectLinks,
+    imageurl
   ) {
     this.id = id;
     this.name = name;
@@ -43,6 +44,7 @@ class Product {
     this.arLensID = arLensID;
     this.organisationImageUrl = organisationImageUrl;
     this.redirectLinks = redirectLinks;
+    this.imageurl = imageurl;
   }
 
   static getByCategory(category, cb) {
@@ -75,7 +77,8 @@ class Product {
             data.is3Davailable,
             data.arLensID,
             data.organisationImageUrl,
-            data.redirectlinks
+            data.redirectlinks,
+            data.imageurl
           );
           products.push(product);
         });
@@ -119,7 +122,8 @@ class Product {
             data.is3Davailable,
             data.arLensID,
             data.organisationImageUrl,
-            data.redirectlinks
+            data.redirectlinks,
+            data.imageurl
           );
           products.push(product);
         });
@@ -160,7 +164,8 @@ class Product {
             data.is3Davailable,
             data.arLensID,
             data.organisationImageUrl,
-            data.redirectlinks
+            data.redirectlinks,
+            data.imageurl
           );
           products.push(product);
         });
