@@ -4,6 +4,7 @@ class Product {
   constructor(
     id,
     name,
+    title,
     price,
     sizes,
     images,
@@ -24,6 +25,7 @@ class Product {
   ) {
     this.id = id;
     this.name = name;
+    this.title = title;
     this.price = price;
     this.sizes = sizes;
     this.images = images;
@@ -56,6 +58,7 @@ class Product {
           const product = new Product(
             data.id,
             data.name,
+            data.title,
             data.price,
             data.sizes,
             data.images,
@@ -99,6 +102,7 @@ class Product {
           const product = new Product(
             data.id,
             data.name,
+            data.title,
             data.price,
             data.sizes,
             data.images,
@@ -139,6 +143,7 @@ class Product {
           const product = new Product(
             data.id,
             data.name,
+            data.title,
             data.price,
             data.sizes,
             data.images,
