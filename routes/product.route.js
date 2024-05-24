@@ -11,4 +11,7 @@ router.route('/getAll')
 router.route('/bytags')
       .post(asyncHandler(ProductController.getProductsByTags));
 
+router.route('/home')
+      .get(asyncHandler(ProductController.getHome));
+
 module.exports = router;

@@ -68,3 +68,21 @@ exports.getProductsByTags = (req, res) => {
       });
     });
   };
+
+exports.getHome = (req, res) => {
+  
+    Product.getByIds((error, products) => {
+      if (error) {
+        return res.status(500).json({ error: 'Internal Server Error' });
+      }
+  
+      if (!products || products.length === 0) {
+        return res.status(404).json({ message: `No products found for tags '${tags}'` });
+      }
+  
+      res.status(200).send({
+        status: "success",
+        products : products
+      });
+    });
+  };

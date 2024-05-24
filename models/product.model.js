@@ -135,6 +135,58 @@ class Product {
       });
   }
 
+  static getByIds(cb) {
+    const collectionPath = 'Products';
+    const collectionRef = db.collection(collectionPath);
+
+    const ids = ["1191", "1151", "2111", "2112", "2113", "2114", "2115", "2116", "1133", "1145", "1150", "1126", "1146", "1117"];
+
+    const promises = ids.map(id => collectionRef.doc(id).get());
+
+
+    Promise.all(promises)
+      .then((docs) => {
+        const products = [];
+        docs.forEach((doc) => {
+          if (doc.exists) {
+            const data = doc.data();
+            const product = new Product(
+              data.id,
+              data.name,
+              data.title,
+              data.price,
+              data.sizes,
+              data.images,
+              data.description,
+              data.similarproducts,
+              data.variants,
+              data.rating,
+              data.tags,
+              data.isAvailable,
+              data.category,
+              data.isActive,
+              data.model3D,
+              data.isARTryOnAvailable,
+              data.is3Davailable,
+              data.arLensID,
+              data.organisationImageUrl,
+              data.redirectlinks,
+              data.imageurl
+            );
+            products.push(product);
+          }
+        });
+        // Call the callback with the list of products
+        cb(null, products);
+      })
+      .catch((error) => {
+        // Handle any errors that occurred during the fetch
+        console.error(`Error fetching products by fixed IDs:`, error);
+        cb(error);
+      });
+  }
+
+
   static getAll(cb) {
     const collectionPath = 'Products';
     const collectionRef = db.collection(collectionPath);
