@@ -139,7 +139,7 @@ class Product {
     const collectionPath = 'Products';
     const collectionRef = db.collection(collectionPath);
 
-    const ids = ["1191", "1151", "2111", "2112", "2113", "2114", "2115", "2116", "1133", "1145", "1150", "1126", "1146", "1117"];
+    const ids = ["1113", "1151", "2111", "2112", "2113", "2114", "2115", "2116", "1133", "1145", "1150", "1126", "1146", "1117"];
 
     const promises = ids.map(id => collectionRef.doc(id).get());
 
