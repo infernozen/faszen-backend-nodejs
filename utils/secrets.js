@@ -6,6 +6,8 @@ const {
    JWT_SECRET_KEY,
    OTP_EMAIL_ADDRESS,
    OTP_EMAIL_PASSWORD,
+   PROJECT_ID, 
+   FIRESTORE_DB
 } = process.env;
 
 const requiredCredentials = [
@@ -16,6 +18,8 @@ const requiredCredentials = [
     'JWT_SECRET_KEY',
     'OTP_EMAIL_ADDRESS',
     'OTP_EMAIL_PASSWORD',
+    'PROJECT_ID',
+    'FIRESTORE_DB'
 ];
 
 for (const credential of requiredCredentials) {
@@ -33,4 +37,6 @@ module.exports = {
     JWT_SECRET_KEY,
     OTP_EMAIL_ADDRESS,
     OTP_EMAIL_PASSWORD,
+    PROJECT_ID, 
+    FIRESTORE_DB
 };
