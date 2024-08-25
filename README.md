@@ -3,6 +3,18 @@
 
 Faszen is a revolutionary fashion facilitator app designed specifically for the Indian population. Our app is set to transform the fashion tech landscape by offering personalized fashion suggestions, augmented reality (AR) try-on capabilities, and a variety of other innovative features.
 
+<details>
+<summary><strong>Architecture Diagram</strong></summary>
+  <h3>Overall Architecture</h3>
+  
+![WhatsApp Image 2024-08-25 at 23 26 40_2284bcd1](https://github.com/user-attachments/assets/c060594c-7d1a-498b-a70f-21d49757b395)
+
+<h3>ChatBot Architecture</h3>
+
+![WhatsApp Image 2024-08-25 at 23 26 57_e86cae57](https://github.com/user-attachments/assets/ee3081b3-3aa5-49a0-b25d-9f2bd3ade6d9)
+
+</details>
+
 > ***NOTE: [https://github.com/infernozen/faszen-frontend](https://github.com/infernozen/faszen-Frontend) refer this repository to setup the Frontend Application***
 ## Requirements
 
@@ -33,10 +45,11 @@ Faszen is a revolutionary fashion facilitator app designed specifically for the 
 
 ![backend-request](https://github.com/user-attachments/assets/f3ec924a-e5f1-4645-8fdc-f9aa2cf7be6f)
 
+<h3 padding-up=0>Chatbot backend (Cloud Function) Verify</h3>
+
+![cloud-function-verify](https://github.com/user-attachments/assets/bf895c21-77a8-4b12-8c64-0c9c45ec26cb)
 
 
-
-  
 
 ## Authors
 
