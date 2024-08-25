@@ -30,6 +30,14 @@ Faszen is a revolutionary fashion facilitator app designed specifically for the 
 ## Acknowledgements
 
 - [Blog](https://ondc.org/buildforbharat/) - ONDC Build For Bharat Award winning project in the Conversational Interface category
+  
+![DSC02787-min](https://github.com/user-attachments/assets/9303cbe5-548d-4617-b72c-cc94a4080988)
+
+---
+
+<p align="center">
+  <b>Thank you for making it this far!</b>
+</p>
 
 
 
