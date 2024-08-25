@@ -13,6 +13,19 @@ Faszen is a revolutionary fashion facilitator app designed specifically for the 
 > ***NOTE: Make sure to change the DB Credentials for both Cloud Sql and Firestore before proceeding.***
 ## Deployment Proofs
 
+<h3 padding-up=0>Staging Deployment Verify</h3>
+
+![compute-engine-verify](https://github.com/user-attachments/assets/cc8f2842-ddf2-4aa2-8b78-443cfde1ecba)
+
+<h3 padding-up=0>Staging CI/CD Verify</h3>
+
+![jenkins-verify](https://github.com/user-attachments/assets/c47bf43f-db36-490c-bef4-95509a15e0cc)
+
+<h3 padding-up=0>Demo Deployment Verify</h3>
+
+![cloud-run-verify](https://github.com/user-attachments/assets/7e987253-041e-4a7e-ab20-8474cacffbe3)
+
+
 
   
 
